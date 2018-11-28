@@ -48,7 +48,7 @@
   "main": "bitcore.js",
   "repository": {
     "type": "git",
-    "url": "http://github.com/EveSnow/bitcore"
+    "url": "http://github.com/HcashOrg/bitcore"
   },
   "scripts": {
     "install": "node-gyp rebuild",
@@ -57,8 +57,8 @@
     "prepublish": "node browser/build.js -a"
   },
   "dependencies": {
-    "crypto-js": "git://github.com/EveSnow/crypto-js.git#jcv_npm",
-    "crypto-browserify": "git://github.com/EveSnow/crypto-browserify.git#master-legacy",
+    "crypto-js": "git://github.com/HcashOrg/crypto-js.git#jcv_npm",
+    "crypto-browserify": "git://github.com/HcashOrg/crypto-browserify.git#master-legacy",
     "asn1.js": "0.4.1",
     "async": "~0.2.10",
     "bignum": "^0.11.0",
