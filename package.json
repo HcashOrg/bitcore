@@ -57,7 +57,7 @@
     "prepublish": "node browser/build.js -a"
   },
   "dependencies": {
-    "crypto-js": "git://github.com/HcashOrg/crypto-js.git#jcv_npm",
+    "crypto-js": "git://github.com/HcashOrg/crypto-js.git#master",
     "crypto-browserify": "git://github.com/HcashOrg/crypto-browserify.git#master-legacy",
     "asn1.js": "0.4.1",
     "async": "~0.2.10",
